@@ -13,8 +13,7 @@ Lydia T. Liu, Max Simchowitz, Moritz Hardt. The implicit fairness criterion of u
 
 ## References for datasets
 
-Dheeru Dua and Efi Karra Taniskidou. UCI machine learning
+- Dheeru Dua and Efi Karra Taniskidou. UCI machine learning
 repository, 2017. URL http://archive.ics.uci.edu/ml
-
-J. Dressel, H. Farid, The accuracy, fairness, and limits of predicting recidivism. Sci. Adv.
+- J. Dressel, H. Farid, The accuracy, fairness, and limits of predicting recidivism. Sci. Adv.
 4, eaao5580 (2018)
