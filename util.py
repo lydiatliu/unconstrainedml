@@ -118,7 +118,7 @@ def plot_calib(res, feature, value_list=None, num_buckets=10, num_to_plot=2, str
     else:
         results = results[results[feature].isin(value_list)]
 
-    pylab.rc('font', size='16')
+    pylab.rc('font', size='13')
     pylab.rc('axes', labelsize='large')
     pylab.rc('lines', linewidth=3)
 
@@ -145,8 +145,8 @@ def plot_calib(res, feature, value_list=None, num_buckets=10, num_to_plot=2, str
     pylab.xlabel('Score decile')
     pylab.ylim([0, 1])
     pylab.tight_layout()
-    pylab.savefig('../figures/%s.svg' % string)
-    pylab.savefig('../figures/%s.pdf' % string)
+    pylab.savefig('../figures/%s.svg' % string.replace(' ','-'))
+    pylab.savefig('../figures/%s.pdf' % string.replace(' ','-'))
     pylab.show()
     pylab.close()
 
