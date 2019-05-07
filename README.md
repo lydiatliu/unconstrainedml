@@ -17,3 +17,6 @@ Lydia T. Liu, Max Simchowitz, Moritz Hardt. The implicit fairness criterion of u
 repository, 2017. URL http://archive.ics.uci.edu/ml
 - J. Dressel, H. Farid, The accuracy, fairness, and limits of predicting recidivism. Sci. Adv.
 4, eaao5580 (2018)
+
+## License
+This repository is licensed under the BSD 3-Clause "New" or "Revised" License.
